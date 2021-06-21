@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/birthday"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Happy Birthday to you !!!"
+        android:textSize="36sp"
+        android:textColor="#350D7A"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_margin="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="from Anurag."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="36sp"
+        android:textColor="#401095"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>
